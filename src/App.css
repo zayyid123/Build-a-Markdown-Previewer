@@ -28,6 +28,52 @@
   color: #61dafb;
 }
 
+.editorWrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  margin-top: 70px;
+  color: #8B949E;
+}
+
+.previewWrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  color: #8B949E;
+}
+
+.tolBar{
+  background-color: #161B22;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+
+.tolBar h3{
+  padding: 0 10px 0 10px;
+}
+
+#editor{
+  width: 99%;
+  min-height: 200px;
+  outline: none;
+  border: none;
+  resize: vertical;
+}
+
+#preview{
+  background-color: white;
+  color: #161B22;
+  width: 100%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
